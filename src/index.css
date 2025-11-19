@@ -1,0 +1,117 @@
+/* --- IMPORT FONTS --- */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+/* --- DESIGN VARIABLES --- */
+:root {
+  --primary-maroon: #7A2030;
+  --deep-burgundy: #5C0F27;
+  --rose-pink: #E8A7B4;
+  --blush-nude: #F7D9D9;
+  --cream-white: #FFF7F7;
+  --text-dark: #2C2C2C;
+  --white-glass: rgba(255, 255, 255, 0.9);
+  
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Lato', sans-serif;
+  
+  --shadow-soft: 0 10px 30px rgba(122, 32, 48, 0.08);
+  --shadow-hover: 0 15px 40px rgba(122, 32, 48, 0.15);
+  
+  /* The Signature Petal Shape */
+  --radius-petal: 25px 0px 25px 0px;
+  --radius-petal-hover: 0px 25px 0px 25px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--cream-white);
+  font-family: var(--font-body);
+  color: var(--text-dark);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* --- TYPOGRAPHY CLASSES --- */
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  color: var(--primary-maroon);
+}
+
+.text-maroon { color: var(--primary-maroon); }
+.text-rose { color: var(--rose-pink); }
+
+/* --- BUTTON COMPONENT STYLES --- */
+.btn-primary {
+  background-color: var(--primary-maroon);
+  color: white;
+  padding: 12px 32px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: var(--radius-petal);
+  transition: all 0.4s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-primary:hover {
+  border-radius: var(--radius-petal-hover);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-hover);
+  background-color: var(--deep-burgundy);
+}
+
+/* --- PETAL CARD STYLE (Navigation) --- */
+.petal-card {
+  background: white;
+  border: 1px solid var(--rose-pink);
+  border-radius: var(--radius-petal);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  box-shadow: var(--shadow-soft);
+  min-width: 200px;
+}
+
+.petal-card:hover {
+  background: var(--primary-maroon);
+  color: white;
+  border-radius: var(--radius-petal-hover);
+  transform: translateY(-10px);
+}
+
+.petal-card:hover h3, .petal-card:hover svg {
+  color: var(--blush-nude);
+}
+
+/* --- UTILITIES --- */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-padding {
+  padding: 80px 0;
+}
+
+/* --- ANIMATIONS --- */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.float-anim {
+  animation: float 6s ease-in-out infinite;
+}
