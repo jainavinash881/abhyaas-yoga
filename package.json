@@ -2,6 +2,7 @@
   "name": "abhyaas-yoga",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jainavinash881.github.io/abhyaas-yoga",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",

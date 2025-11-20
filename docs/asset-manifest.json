@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.bc5c703e.css",
-    "main.js": "/static/js/main.cbbd0236.js",
-    "static/js/453.07160f00.chunk.js": "/static/js/453.07160f00.chunk.js",
-    "index.html": "/index.html",
-    "main.bc5c703e.css.map": "/static/css/main.bc5c703e.css.map",
-    "main.cbbd0236.js.map": "/static/js/main.cbbd0236.js.map",
-    "453.07160f00.chunk.js.map": "/static/js/453.07160f00.chunk.js.map"
+    "main.css": "/abhyaas-yoga/static/css/main.bc5c703e.css",
+    "main.js": "/abhyaas-yoga/static/js/main.715edee5.js",
+    "static/js/453.07160f00.chunk.js": "/abhyaas-yoga/static/js/453.07160f00.chunk.js",
+    "index.html": "/abhyaas-yoga/index.html",
+    "main.bc5c703e.css.map": "/abhyaas-yoga/static/css/main.bc5c703e.css.map",
+    "main.715edee5.js.map": "/abhyaas-yoga/static/js/main.715edee5.js.map",
+    "453.07160f00.chunk.js.map": "/abhyaas-yoga/static/js/453.07160f00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc5c703e.css",
-    "static/js/main.cbbd0236.js"
+    "static/js/main.715edee5.js"
   ]
 }
