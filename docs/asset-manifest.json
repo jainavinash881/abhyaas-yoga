@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/abhyaas-yoga/static/css/main.6680b4ce.css",
-    "main.js": "/abhyaas-yoga/static/js/main.ca41ad45.js",
+    "main.js": "/abhyaas-yoga/static/js/main.90a315a7.js",
     "static/js/453.07160f00.chunk.js": "/abhyaas-yoga/static/js/453.07160f00.chunk.js",
     "index.html": "/abhyaas-yoga/index.html",
     "main.6680b4ce.css.map": "/abhyaas-yoga/static/css/main.6680b4ce.css.map",
-    "main.ca41ad45.js.map": "/abhyaas-yoga/static/js/main.ca41ad45.js.map",
+    "main.90a315a7.js.map": "/abhyaas-yoga/static/js/main.90a315a7.js.map",
     "453.07160f00.chunk.js.map": "/abhyaas-yoga/static/js/453.07160f00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6680b4ce.css",
-    "static/js/main.ca41ad45.js"
+    "static/js/main.90a315a7.js"
   ]
 }
